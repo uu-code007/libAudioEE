@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  SMAudioEffects
+//  audioEG
 //
-//  Created by sunmu on 2023/3/11.
+//  Created by 孙慕 on 2021/12/27.
 //
 
 #import <UIKit/UIKit.h>

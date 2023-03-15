@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91CA14F29C19BD200501D33 /* libAudioEE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C91CA14529C075BE00501D33 /* libAudioEE.a */; };
+		C995106129C01F020043D4D3 /* MMAudioUnitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C995105F29C01F020043D4D3 /* MMAudioUnitManager.m */; };
 		C9E0294A29BC5FC400FD3420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0294929BC5FC400FD3420 /* AppDelegate.m */; };
 		C9E0294D29BC5FC400FD3420 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0294C29BC5FC400FD3420 /* SceneDelegate.m */; };
-		C9E0295029BC5FC400FD3420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0294F29BC5FC400FD3420 /* ViewController.m */; };
+		C9E0295029BC5FC400FD3420 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9E0294F29BC5FC400FD3420 /* ViewController.mm */; };
 		C9E0295329BC5FC400FD3420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E0295129BC5FC400FD3420 /* Main.storyboard */; };
 		C9E0295529BC5FC500FD3420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E0295429BC5FC500FD3420 /* Assets.xcassets */; };
 		C9E0295829BC5FC500FD3420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E0295629BC5FC500FD3420 /* LaunchScreen.storyboard */; };
 		C9E0295B29BC5FC500FD3420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0295A29BC5FC500FD3420 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C91CA13E29C0728F00501D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C91CA13A29C0728F00501D33 /* effectsEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E38A7CB4279FDEC300E5B5CF;
+			remoteInfo = effectsEngine;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C91CA13A29C0728F00501D33 /* effectsEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = effectsEngine.xcodeproj; path = ../effectsEngine/effectsEngine.xcodeproj; sourceTree = "<group>"; };
+		C91CA14329C075BE00501D33 /* mm_audio_effect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mm_audio_effect.hpp; sourceTree = "<group>"; };
+		C91CA14429C075BE00501D33 /* mm_effect_common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mm_effect_common.hpp; sourceTree = "<group>"; };
+		C91CA14529C075BE00501D33 /* libAudioEE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAudioEE.a; sourceTree = "<group>"; };
+		C995105F29C01F020043D4D3 /* MMAudioUnitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAudioUnitManager.m; sourceTree = "<group>"; };
+		C995106029C01F020043D4D3 /* MMAudioUnitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAudioUnitManager.h; sourceTree = "<group>"; };
 		C9E0294529BC5FC400FD3420 /* SMAudioEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMAudioEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E0294829BC5FC400FD3420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9E0294929BC5FC400FD3420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9E0294B29BC5FC400FD3420 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C9E0294C29BC5FC400FD3420 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		C9E0294E29BC5FC400FD3420 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C9E0294F29BC5FC400FD3420 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9E0294F29BC5FC400FD3420 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		C9E0295229BC5FC400FD3420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9E0295429BC5FC500FD3420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E0295729BC5FC500FD3420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,17 +54,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91CA14F29C19BD200501D33 /* libAudioEE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C91CA13B29C0728F00501D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91CA13F29C0728F00501D33 /* effectsEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91CA14129C075BE00501D33 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C91CA14229C075BE00501D33 /* include */,
+				C91CA14529C075BE00501D33 /* libAudioEE.a */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C91CA14229C075BE00501D33 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C91CA14329C075BE00501D33 /* mm_audio_effect.hpp */,
+				C91CA14429C075BE00501D33 /* mm_effect_common.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C99509FB29BC60130043D4D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9E0293C29BC5FC400FD3420 = {
 			isa = PBXGroup;
 			children = (
+				C91CA13A29C0728F00501D33 /* effectsEngine.xcodeproj */,
 				C9E0294729BC5FC400FD3420 /* SMAudioEffects */,
 				C9E0294629BC5FC400FD3420 /* Products */,
+				C99509FB29BC60130043D4D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +115,15 @@
 		C9E0294729BC5FC400FD3420 /* SMAudioEffects */ = {
 			isa = PBXGroup;
 			children = (
+				C91CA14129C075BE00501D33 /* Lib */,
+				C995106029C01F020043D4D3 /* MMAudioUnitManager.h */,
+				C995105F29C01F020043D4D3 /* MMAudioUnitManager.m */,
 				C9E0294829BC5FC400FD3420 /* AppDelegate.h */,
 				C9E0294929BC5FC400FD3420 /* AppDelegate.m */,
 				C9E0294B29BC5FC400FD3420 /* SceneDelegate.h */,
 				C9E0294C29BC5FC400FD3420 /* SceneDelegate.m */,
 				C9E0294E29BC5FC400FD3420 /* ViewController.h */,
-				C9E0294F29BC5FC400FD3420 /* ViewController.m */,
+				C9E0294F29BC5FC400FD3420 /* ViewController.mm */,
 				C9E0295129BC5FC400FD3420 /* Main.storyboard */,
 				C9E0295429BC5FC500FD3420 /* Assets.xcassets */,
 				C9E0295629BC5FC500FD3420 /* LaunchScreen.storyboard */,
@@ -121,12 +178,28 @@
 			mainGroup = C9E0293C29BC5FC400FD3420;
 			productRefGroup = C9E0294629BC5FC400FD3420 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C91CA13B29C0728F00501D33 /* Products */;
+					ProjectRef = C91CA13A29C0728F00501D33 /* effectsEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C9E0294429BC5FC400FD3420 /* SMAudioEffects */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C91CA13F29C0728F00501D33 /* effectsEngine.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = effectsEngine.framework;
+			remoteRef = C91CA13E29C0728F00501D33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C9E0294329BC5FC400FD3420 /* Resources */ = {
@@ -146,10 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E0295029BC5FC400FD3420 /* ViewController.m in Sources */,
+				C9E0295029BC5FC400FD3420 /* ViewController.mm in Sources */,
 				C9E0294A29BC5FC400FD3420 /* AppDelegate.m in Sources */,
 				C9E0295B29BC5FC500FD3420 /* main.m in Sources */,
 				C9E0294D29BC5FC400FD3420 /* SceneDelegate.m in Sources */,
+				C995106129C01F020043D4D3 /* MMAudioUnitManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +366,39 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W2TP34G2MM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/HappyDNS/universal",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/HappyDNS/iphoneos",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SMAudioEffects/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = mic;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/libyuv-ios/lib",
+					"$(PROJECT_DIR)/SMAudioEffects/Common",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/pili-fdk-aac/lib",
+					"$(PROJECT_DIR)/SMAudioEffects/Lib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mumu.SMAudioEffects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../七牛/workspace/github/Fork/pili-camera-streaming-ios-kit/Common/PLAudioEngine/PLAudioEngine\"/**";
 			};
 			name = Debug;
 		};
@@ -318,22 +409,38 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2TP34G2MM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/HappyDNS/universal",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/HappyDNS/iphoneos",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SMAudioEffects/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = mic;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/libyuv-ios/lib",
+					"$(PROJECT_DIR)/SMAudioEffects/Common",
+					"$(PROJECT_DIR)/SMAudioEffects/Common/pili-fdk-aac/lib",
+					"$(PROJECT_DIR)/SMAudioEffects/Lib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mumu.SMAudioEffects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../七牛/workspace/github/Fork/pili-camera-streaming-ios-kit/Common/PLAudioEngine/PLAudioEngine\"/**";
 			};
 			name = Release;
 		};
